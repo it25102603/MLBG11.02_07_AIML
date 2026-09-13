@@ -1,0 +1,15 @@
+{
+  "member": "Member2",
+  "model": "KNN",
+  "best_params": {
+    "metric": "euclidean",
+    "n_neighbors": 3,
+    "weights": "uniform"
+  },
+  "cv_mean_accuracy": 0.8839,
+  "cv_std_accuracy": 0.0115,
+  "test_accuracy": 0.8793,
+  "test_precision": 0.8953,
+  "test_recall": 0.8129,
+  "test_f1": 0.8521
+}
