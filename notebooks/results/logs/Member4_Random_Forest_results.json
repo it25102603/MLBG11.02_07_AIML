@@ -1,0 +1,16 @@
+{
+  "member": "Member4",
+  "model": "Random Forest",
+  "best_params": {
+    "max_depth": 5,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "n_estimators": 100
+  },
+  "cv_mean_accuracy": 0.9268,
+  "cv_std_accuracy": 0.0112,
+  "test_accuracy": 0.9147,
+  "test_precision": 0.9223,
+  "test_recall": 0.8742,
+  "test_f1": 0.8976
+}
