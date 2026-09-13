@@ -1,0 +1,14 @@
+{
+  "member": "Member5",
+  "model": "SVM",
+  "best_params": {
+    "C": 0.1,
+    "kernel": "linear"
+  },
+  "cv_mean_accuracy": 0.9367,
+  "cv_std_accuracy": 0.0068,
+  "test_accuracy": 0.9199,
+  "test_precision": 0.9206,
+  "test_recall": 0.8896,
+  "test_f1": 0.9048
+}
