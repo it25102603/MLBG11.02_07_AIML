@@ -1,5 +1,5 @@
 {
-  "member": "Member2",
+  "member": "IT25103179",
   "model": "KNN",
   "best_params": {
     "metric": "euclidean",
