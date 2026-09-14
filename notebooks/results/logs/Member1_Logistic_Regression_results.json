@@ -1,5 +1,5 @@
 {
-  "member": "Member1",
+  "member": "IT25100504",
   "model": "Logistic Regression",
   "best_params": {
     "C": 0.01,
