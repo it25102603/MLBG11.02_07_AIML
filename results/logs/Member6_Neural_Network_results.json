@@ -1,0 +1,18 @@
+{
+  "member": "Member6",
+  "model": "Neural Network",
+  "best_params": {
+    "activation": "relu",
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+      32
+    ],
+    "learning_rate_init": 0.001
+  },
+  "cv_mean_accuracy": 0.7625,
+  "cv_std_accuracy": 0.0217,
+  "test_accuracy": 0.7559,
+  "test_precision": 0.7921,
+  "test_recall": 0.7775,
+  "test_f1": 0.7847
+}
