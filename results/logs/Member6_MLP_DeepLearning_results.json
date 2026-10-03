@@ -1,0 +1,61 @@
+{
+  "member": "IT25102603",
+  "model": "Neural Network (MLP - Keras/TensorFlow)",
+  "best_params": {
+    "hidden_layers": [
+      16
+    ],
+    "dropout": 0.1,
+    "learning_rate": 0.01,
+    "batch_size": 32
+  },
+  "variants_compared": [
+    {
+      "variant": "Small_1Layer",
+      "hidden_layers": [
+        16
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.01,
+      "batch_size": 32,
+      "epochs_trained": 12,
+      "test_accuracy": 0.4278,
+      "test_precision": 0.0,
+      "test_recall": 0.0,
+      "test_f1": 0.0
+    },
+    {
+      "variant": "Medium_2Layer",
+      "hidden_layers": [
+        32,
+        16
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs_trained": 34,
+      "test_accuracy": 0.4278,
+      "test_precision": 0.0,
+      "test_recall": 0.0,
+      "test_f1": 0.0
+    },
+    {
+      "variant": "Wide_1Layer",
+      "hidden_layers": [
+        64
+      ],
+      "dropout": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "epochs_trained": 14,
+      "test_accuracy": 0.4278,
+      "test_precision": 0.0,
+      "test_recall": 0.0,
+      "test_f1": 0.0
+    }
+  ],
+  "test_accuracy": 0.4278,
+  "test_precision": 0.0,
+  "test_recall": 0.0,
+  "test_f1": 0.0
+}
