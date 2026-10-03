@@ -1,0 +1,15 @@
+{
+  "member": "IT25103179",
+  "model": "KNN",
+  "best_params": {
+    "metric": "manhattan",
+    "n_neighbors": 5,
+    "weights": "uniform"
+  },
+  "cv_mean_accuracy": 0.9003,
+  "cv_std_accuracy": 0.0115,
+  "test_accuracy": 0.8793,
+  "test_precision": 0.8723,
+  "test_recall": 0.9243,
+  "test_f1": 0.8976
+}
