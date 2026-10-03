@@ -1,0 +1,15 @@
+{
+  "member": "IT25100504",
+  "model": "Logistic Regression",
+  "best_params": {
+    "C": 100,
+    "penalty": "l2",
+    "solver": "lbfgs"
+  },
+  "cv_mean_accuracy": 0.9334,
+  "cv_std_accuracy": 0.0071,
+  "test_accuracy": 0.9186,
+  "test_precision": 0.9137,
+  "test_recall": 0.9472,
+  "test_f1": 0.9302
+}
