@@ -3,11 +3,11 @@
   "model": "Neural Network (MLP - Keras/TensorFlow)",
   "best_params": {
     "hidden_layers": [
-      16
+      64
     ],
-    "dropout": 0.1,
-    "learning_rate": 0.01,
-    "batch_size": 32
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "batch_size": 16
   },
   "variants_compared": [
     {
@@ -18,11 +18,11 @@
       "dropout": 0.1,
       "learning_rate": 0.01,
       "batch_size": 32,
-      "epochs_trained": 12,
-      "test_accuracy": 0.4278,
-      "test_precision": 0.0,
-      "test_recall": 0.0,
-      "test_f1": 0.0
+      "epochs_trained": 13,
+      "test_accuracy": 0.9121,
+      "test_precision": 0.9241,
+      "test_recall": 0.922,
+      "test_f1": 0.9231
     },
     {
       "variant": "Medium_2Layer",
@@ -33,11 +33,11 @@
       "dropout": 0.2,
       "learning_rate": 0.001,
       "batch_size": 32,
-      "epochs_trained": 34,
-      "test_accuracy": 0.4278,
-      "test_precision": 0.0,
-      "test_recall": 0.0,
-      "test_f1": 0.0
+      "epochs_trained": 14,
+      "test_accuracy": 0.916,
+      "test_precision": 0.917,
+      "test_recall": 0.9381,
+      "test_f1": 0.9274
     },
     {
       "variant": "Wide_1Layer",
@@ -47,15 +47,15 @@
       "dropout": 0.3,
       "learning_rate": 0.001,
       "batch_size": 16,
-      "epochs_trained": 14,
-      "test_accuracy": 0.4278,
-      "test_precision": 0.0,
-      "test_recall": 0.0,
-      "test_f1": 0.0
+      "epochs_trained": 35,
+      "test_accuracy": 0.9199,
+      "test_precision": 0.9233,
+      "test_recall": 0.9381,
+      "test_f1": 0.9306
     }
   ],
-  "test_accuracy": 0.4278,
-  "test_precision": 0.0,
-  "test_recall": 0.0,
-  "test_f1": 0.0
+  "test_accuracy": 0.9199,
+  "test_precision": 0.9233,
+  "test_recall": 0.9381,
+  "test_f1": 0.9306
 }
